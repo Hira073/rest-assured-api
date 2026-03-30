@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API Portfolio Suite">
+    <test name="ReqRes API Tests">
+        <classes>
+            <class name="com.zain.api.portfolio.tests.UserApiTests"/>
+            <class name="com.zain.api.portfolio.tests.AuthApiTests"/>
+        </classes>
+    </test>
+</suite>
